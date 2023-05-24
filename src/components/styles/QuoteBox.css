@@ -1,0 +1,37 @@
+.quoteBox___btn {
+    display: flex;
+    margin: 20px auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+.quoteBox___phrase {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 50px 35px;
+    gap: 10px;
+    margin: 50px 0px;
+    height: max-content;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+    border-radius: 39px;
+}
+ .quoteBox___phrase p{
+    font-family: 'Digital Numbers';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #25063F;
+    order: 0;
+    flex-grow: 0;
+ }
